@@ -1,0 +1,20 @@
+.song-card {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.song-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.song-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
